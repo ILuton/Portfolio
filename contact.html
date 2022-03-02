@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Isaac's Contact</title>
-    <link rel="stylesheet" type="text/css" href="./css/contact.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="main-header"> 
-        <div class="header-container">
-            <div class="name">
-                <h1>Isaac Luton</h1>
-            </div>
-            <div class="header-image">
-                <img src="./images/Screenshot 2022-02-14 at 6.13.01 PM.jpeg">            
-            </div>
-        </div>
-        <nav class="nav-bar">
-            <ul class="nav-list">
-                <a href="./index.html"><li>Portfolio</li></a>
-                <a href="./resume.html"><li>Resume</li></a>
-                <a href="./aboutme.html"><li>About Me</li></a>
-                <a href="./contact.html"><li>Contact</li></a>
-            </ul>
-            <div class="github-logo">
-                <a href="https://github.com/ILuton" target="_blank">
-                    <img src="./images/GitHub-Mark-120px-plus.png" alt="github icon">
-                </a>
-            </div>
-            <div class="linkedin-logo">
-                <a href="" target="_blank">
-                    <img src="./images/In-Blue-Logo.png.original.png" alt="linkedin icon">
-                </a>
-            </div>
-
-        </nav>
+    <link rel="stylesheet" type="text/css" href="./css/contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-image">
+        <img src="./images/Screenshot 2022-02-14 at 6.13.01 PM.jpeg" />
+      </div>
+      <h1>Isaac Luton</h1>
+      <ul class="nav-list">
+        <a href="./index.html"><li id="nav1">Portfolio</li></a>
+        <a href="./resume.html"><li id="nav2">Resume</li></a>
+        <a href="./aboutme.html"><li id="nav3">About Me</li></a>
+        <a href="./contact.html"><li id="nav4">Contact</li></a>
+      </ul>
+      <div class="github-logo">
+        <a href="https://github.com/ILuton" target="_blank">
+          <img src="./images/GitHub-Mark-120px-plus.png" alt="github icon" />
+        </a>
+      </div>
+      <div class="linkedin-logo">
+        <a href="" target="_blank">
+          <img
+            src="./images/In-Blue-Logo.png.original.png"
+            alt="linkedin icon"
+          />
+        </a>
+      </div>
     </header>
-    
-    
-</body>
+
+    <main>
+      <section class="text">
+        <div class="text-container">
+          <p>
+            If you want to message me you can email me directly at the
+            following: isaacdluton@gmail.com <br />or fill out the form below.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-container">
+        <form action="" method="">
+          <ul class="form-list">
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Send your message</button>
+            </li>
+          </ul>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
