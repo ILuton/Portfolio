@@ -80,6 +80,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: wrap;
   margin-top: 90px;
 }
 main img {
@@ -142,7 +143,7 @@ section h3 {
   }
 
   .nav-list {
-    margin-right: 130px;
+    margin: auto;
   }
 
   .header-image img {
