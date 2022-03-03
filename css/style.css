@@ -131,33 +131,20 @@ main img:hover {
 @media screen and (max-width: 786px) {
   header,
   main,
-  nav,
   .nav-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
-  }
-
-  main img {
-    height: 220px;
-    width: 320px;
-  }
-
-  .name {
-    text-align: center;
-    margin-right: 30px;
-  }
-
-  .header-image img {
-    height: 90px;
-    width: 100px;
-    margin-right: 90px;
   }
 
   .nav-list {
-    margin-left: 0px;
-    padding: 0px;
+    margin-right: 130px;
+  }
+
+  .header-image img {
+    height: 120px;
+    width: 100px;
+    margin-right: auto;
   }
 
   .nav-list a {
@@ -165,14 +152,15 @@ main img:hover {
   }
 
   .linkedin-logo img {
-    margin: 40px 0px 10px 0px;
-  }
-
-  .github-logo {
-    margin-right: 10px;
+    margin-top: 20px auto;
   }
 
   .github-logo img {
-    margin-top: 40px;
+    margin-top: 20px auto;
   }
+}
+
+main img {
+  height: 220px;
+  width: 320px;
 }

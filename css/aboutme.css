@@ -144,3 +144,50 @@ main ul {
 .text-container span {
   font-size: 40px;
 }
+
+/* media query */
+
+@media screen and (max-width: 786px) {
+  header,
+  main,
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list {
+    margin-right: 150px;
+  }
+
+  .header-image img {
+    height: 120px;
+    width: 100px;
+    margin-right: auto;
+  }
+
+  .nav-list a {
+    margin-top: 20px;
+  }
+
+  .linkedin-logo img {
+    margin-top: 20px auto;
+  }
+
+  .github-logo img {
+    margin-top: 20px auto;
+  }
+
+  .image-container img {
+    margin: auto;
+  }
+
+  main p {
+    margin: 40px 40px;
+    font-size: 120%;
+  }
+  main ul {
+    font-size: 120%;
+    margin: 40px 40px;
+  }
+}
