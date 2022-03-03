@@ -170,4 +170,15 @@ textarea {
   .github-logo img {
     margin-top: 20px auto;
   }
+
+  .text-container {
+    width: 300px;
+    height: auto;
+  }
+
+  form {
+    width: 300px;
+    height: auto;
+  }
+
 }
