@@ -11,3 +11,8 @@
 ## Usage
 
 - My portfoilio can be viewed at the following link: https://iluton.github.io/Portfolio/
+
+
+## Image of Portfolio
+
+![Alt text](/Screen%20Shot%202022-04-17%20at%208.20.51%20PM.png "portfolio")
