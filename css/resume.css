@@ -8,8 +8,10 @@ body {
 }
 
 figure {
-  height: 800px;
+  height: 1000px;
 }
+
+
 
 .main-header {
   display: flex;
