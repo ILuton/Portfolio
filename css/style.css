@@ -81,7 +81,7 @@ main {
   justify-content: center;
   align-items: center;
   flex: wrap;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 main img {
   height: 300px;
@@ -107,7 +107,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 main img {
   height: 300px;
@@ -128,7 +128,10 @@ main img:hover {
 }
 
 section h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 320px;
 }
 
 /* media queries */
